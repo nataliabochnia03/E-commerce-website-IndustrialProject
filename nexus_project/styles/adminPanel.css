@@ -1,0 +1,27 @@
+.admin-panel-column {
+  float: left;
+  width: 33.33%;
+  margin-top: 5%;
+  margin-bottom: 1%;
+  padding-left: 2%;
+  padding-right: 2%;
+  cursor: pointer;
+}
+
+.admin-panel-column img {
+  display: block;
+  width: 100%;
+}
+
+.admin-panel-column h3 {
+  text-align: center;
+}
+
+.admin-panel-column-2 {
+  float: left;
+  width: 46%;
+  margin-bottom: 1%;
+  margin-left: 2%;
+  margin-right: 2%;
+  cursor: pointer;
+}

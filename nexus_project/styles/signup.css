@@ -1,0 +1,16 @@
+.signup-container {
+  width: 40%;
+  margin: 0 30% 0 30%;
+  text-align: center;
+}
+
+.signup-container input {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #000000; 
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-size: 16px; 
+  outline: none; 
+  transition: border-color 0.3s ease;
+}

@@ -1,0 +1,31 @@
+.product-column-left {
+  float: left;
+  width: 30%;
+}
+
+.product-column-left img {
+  display: block;
+  width: 100%;
+  height: 400px; /* Set a fixed height */
+  object-fit: contain; /* Ensure the entire image is visible within the fixed height */
+  background-color: white;
+  padding-bottom: 2%; /* Adjust padding as needed */
+}
+
+.product-column-right {
+  float: left;
+  width: 60%;
+  margin-left: 10%;
+}
+
+@media screen and (max-width: 1000px) {
+  .product-column-left {
+    width: 100%;
+    margin-bottom: 10%;
+  }
+
+  .product-column-right {
+    width: 100%;
+    margin-left: 0%;
+  }
+}
